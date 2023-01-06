@@ -1,0 +1,7 @@
+this project will enable a static status bar at the bottom of the terminal window via the tmux command (must be installed).
+
+This will be useful for things like:
+-displaying date/time
+-monitoring CPU and Memory load
+-keeping track of which repo is being updated via MirrorMan-ng
+
