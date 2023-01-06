@@ -7,7 +7,7 @@ DO NOT USE ON ANY PRODUCTION SERVER OR SYSTEM !
 </div>
 <hr>
 <div id="Details">
-  This project will enable a static status bar at the bottom of the terminal window via the tmux command (must be installed). <br>
+  This project will enable a static status bar at the bottom of the terminal window via the tmux command (must be installed). <p>
   There are config files and scripts for easily backing up and restoring the config, etc.
   This will be useful for things like:
  <ul>
