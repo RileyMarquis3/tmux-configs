@@ -1,3 +1,6 @@
+Change color up uptime.
+Enable disabled plugins already commented out inside config files (e.g. CPU usage).
+
 Need to redo tmux config split.
 - Create /etc/tmux/config.d
 - have tmux.conf call everything in /etc/tmux/conf.d
