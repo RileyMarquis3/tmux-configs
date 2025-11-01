@@ -1,0 +1,3 @@
+Need to redo tmux config split.
+- Create /etc/tmux/config.d
+- have tmux.conf call everything in /etc/tmux/conf.d
