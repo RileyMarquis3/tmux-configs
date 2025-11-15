@@ -1,0 +1,17 @@
+function TmuxConfig_Backup() {
+  cp -v /root/.tmux.conf /root/.tmux.conf.backup
+}
+
+function TmuxConfig_Write() {
+  cp -v tmux-custom1.conf /root/.tmux.conf
+}
+
+function TmuxConfig_Reload() {
+  # Reload TMUX environment so TPM is sourced:
+  # type this in terminal if tmux is already running 
+  tmux source ~/.tmux.conf
+}
+
+function TmuxConfig_ChangeColors() {
+  tmux set-option status-style fg=black,bg=white
+}
